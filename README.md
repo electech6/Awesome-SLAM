@@ -3,6 +3,82 @@ SLAM code, paper, project collections
 
 
 
+## ORB-SLAM2 related codes
+
+Raúl Mur-Artal and Juan D. Tardós. ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras. IEEE Transactions on Robotics,2017
+
+[PAPER](https://arxiv.org/abs/1610.06475),
+[CODE](https://github.com/raulmur/ORB_SLAM2)
+
+### 改进方法
+[ORB-YGZ-SLAM, average 3x speed up and keep almost same accuracy v.s. ORB-SLAM2, use direct tracking in SVO to accelerate the feature matching](https://github.com/gaoxiang12/ORB-YGZ-SLAM)
+
+[YGZ-stereo-inertial SLAM, LK optical flow + sliding window bundle adjustment](https://github.com/gaoxiang12/ygz-stereo-inertial)
+
+
+[ORB-SLAM-Android, test on Sony Xperia Z](https://github.com/castoryan/ORB-SLAM-Android)
+
+[Save and load orb-slam2 maps](https://github.com/AlejandroSilvestri/osmap)
+
+
+
+[Viewer for maps from ORB-SLAM2 Osmap](https://github.com/AlejandroSilvestri/Osmap-viewer)
+
+
+[Add line feature based ORB-SLAM2](https://github.com/atlas-jj/ORB_Line_SLAM)
+
+[RGBD-SLAM with Point and Line Features, developed based on ORB_SLAM2](https://github.com/maxee1900/RGBD-PL-SLAM)
+
+## Line feature based SLAM
+
+### PL-SLAM
+Stereo visual SLAM using both point and line segment features
+
+2017,PL-SLAM: a Stereo SLAM System through the Combination of Points and Line Segments
+
+[PAPER](https://arxiv.org/abs/1705.09479),
+[CODE](https://github.com/rubengooj/pl-slam)
+
+2016 IROS, PL-SVO: Semi-direct monocular visual odometry by combining points and line segments.
+
+[PAPER](http://mapir.isa.uma.es/rgomez/publications/iros16plsvo.pdf)
+
+2016 ICRA, Robust stereo visual odometry through a probabilistic combination of points and line segments. In Robotics and Automation 
+
+[PAPER](http://mapir.isa.uma.es/rgomez/publications/icra16plsvo.pdf)
+
+### Monocular ORB-SLAM with Line Features
+
+[CODE](https://github.com/lanyouzibetty/ORB-SLAM2_with_line)
+
+### ORB_Line_SLAM
+Add line feature based ORB-SLAM2
+
+[CODE](https://github.com/atlas-jj/ORB_Line_SLAM)
+
+### RGBD-PL-SLAM
+RGBD-SLAM with Point and Line Features, developed based on the famous ORB_SLAM2
+
+[CODE](https://github.com/maxee1900/RGBD-PL-SLAM)
+
+### Line feature based RGBD-SLAM v2
+
+[CODE](https://github.com/yan-lu/LineSLAM)
+
+### 3D Line Semi-dense SLAM
+ICPR 2018, Incremental 3D Line Segment Extraction for Surface Reconstruction from Semi-dense SLAM
+
+[PAPER](https://arxiv.org/abs/1708.03275),
+[](http://webdocs.cs.ualberta.ca/~vis/thesis_shida/),
+[CODE](https://github.com/shidahe/semidense-lines)
+
+### 3D Line-based Stereo SLAM
+2015 IEEE Transactions on Robotics, Building a 3-D Line-Based Map Using Stereo SLAM
+
+[CODE](https://github.com/slslam/slslam),
+[论文解读](https://www.cnblogs.com/tweed/p/11353285.html)
+
+
 
 # LIDAR SLAM
 
@@ -37,6 +113,7 @@ Advanced implementation of LOAM, uses Eigen and Ceres Solver to simplify code st
 ### LeGO-LOAM
 IROS 2018, LeGO-LOAM: Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain
 
+[CODE](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM),
 [PAPER](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM/blob/master/Shan_Englot_IROS_2018_Preprint.pdf),
 [Video demo](https://www.youtube.com/watch?v=O3tz_ftHV48),
 [Gif demo](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM/blob/master/LeGO-LOAM/launch/demo.gif)
@@ -80,26 +157,9 @@ J. Zhang and S. Singh. LOAM: Lidar Odometry and Mapping in Real-time. Robotics: 
 [中文注释代码](https://github.com/cuitaixiang/LOAM_NOTED)
 
 
-## ORB-SLAM2 related codes
-
-Raúl Mur-Artal and Juan D. Tardós. ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras. IEEE Transactions on Robotics,2017
-
-[PAPER](https://arxiv.org/abs/1610.06475),
-[CODE](https://github.com/raulmur/ORB_SLAM2)
-
-### 改进方法
-[ORB-YGZ-SLAM, average 3x speed up and keep almost same accuracy v.s. ORB-SLAM2, use direct tracking in SVO to accelerate the feature matching](https://github.com/gaoxiang12/ORB-YGZ-SLAM)
-
-[YGZ-stereo-inertial SLAM, LK optical flow + sliding window bundle adjustment](https://github.com/gaoxiang12/ygz-stereo-inertial)
-
-
-[ORB-SLAM-Android, test on Sony Xperia Z](https://github.com/castoryan/ORB-SLAM-Android)
-
-[Save and load orb-slam2 maps](https://github.com/AlejandroSilvestri/osmap)
 
 
 
-[Viewer for maps from ORB-SLAM2 Osmap](https://github.com/AlejandroSilvestri/Osmap-viewer)
 
 
 
